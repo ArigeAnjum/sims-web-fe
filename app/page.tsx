@@ -1,10 +1,10 @@
-import NavBar from "@/components/layout/NavBar";
+import Index from "@/components/home";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <Index/>
     </div>
   );
 }
