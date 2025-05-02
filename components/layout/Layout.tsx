@@ -9,10 +9,12 @@ const Layout = ({
     children: React.ReactNode
 }>) => {
     return (
-        <div className='w-screen max-w-7xl mx-auto h-full bg-yellow-400'>
+        <div className='w-full   max-w-7xl mx-auto h-full'>
             <NavBar />
             {/* <HeroSection /> */}
-            <div>{children}</div>
+            <div>
+                {children}
+                </div>
             <Footer />
         </div>
     )

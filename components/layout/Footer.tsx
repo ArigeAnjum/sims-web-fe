@@ -71,7 +71,7 @@ const Footer = () => {
                                 alt={`Gallery ${index}`}
                                 width={80}
                                 height={80}
-                                className='border-4 border-white rounded-lg object-cover w-[88px] h-[88px] max-w-[88px] max-h-[88px]'
+                                className='border-4 border-white rounded-lg object-cover w-[80px] h-[80px] max-w-[80px] max-h-[80px]'
                             />
                         ))}
                     </div>
