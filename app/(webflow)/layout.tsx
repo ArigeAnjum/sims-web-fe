@@ -7,7 +7,7 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <div className='min-w-screen  max-w-screen-2xl mx-auto'>
+        <div className='min-w-screen  max-w-6xl mx-auto'>
             <Layout>{children}</Layout>
         </div>
     )
