@@ -22,7 +22,7 @@ const socialIcons = [
 
 const Footer = () => {
     return (
-        <footer className='bg-primary text-white pt-10 pb-6 px-4 md:px-16 max-w-7xl mx-auto'>
+        <footer className='bg-primary text-white '>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 mb-10'>
                 {/* Contact */}
                 <div>

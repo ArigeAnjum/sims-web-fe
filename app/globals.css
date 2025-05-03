@@ -6,6 +6,10 @@
   --color-light: #FFF5F3;
 }
 
+html, body {
+  overflow-x: hidden !important;
+}
+
 /* curve pattern for nav bar */
 /* .curves {
   position: absolute;
